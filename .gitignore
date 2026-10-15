@@ -1,0 +1,8 @@
+checkpoints/
+datasets/
+outputs/
+.env
+*.pth
+*.pt
+__pycache__/
+MNAD.zip

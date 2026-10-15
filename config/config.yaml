@@ -1,0 +1,26 @@
+project_root: /content/drive/MyDrive/SmartHomeSurveillance
+paths:
+  app: /content/drive/MyDrive/SmartHomeSurveillance/app
+  config: /content/drive/MyDrive/SmartHomeSurveillance/config
+  datasets: /content/drive/MyDrive/SmartHomeSurveillance/datasets
+  MNAD: /content/drive/MyDrive/SmartHomeSurveillance/MNAD
+  checkpoints: /content/drive/MyDrive/SmartHomeSurveillance/checkpoints
+  outputs: /content/drive/MyDrive/SmartHomeSurveillance/outputs
+  logs: /content/drive/MyDrive/SmartHomeSurveillance/logs
+device: cuda
+mnad_repo_url: https://github.com/cvlab-yonsei/MNAD.git
+tracker: bytetrack.yaml (ultralytics built-in)
+environment:
+  python_version: 3.12.13
+  torch_version: 2.11.0+cu128
+  cuda_available: true
+datasets:
+  RACD: false
+  ped2: true
+  avenue: false
+  shanghaitech: false
+checkpoints:
+  RACD: false
+  ped2: false
+  avenue: false
+  shanghaitech: false
